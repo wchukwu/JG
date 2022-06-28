@@ -6,7 +6,7 @@ import "../../structs/dna_seq/UltimaGenomicsWholeGenomeGermlineStructs.wdl" as S
 
 workflow testBWA {
     input {
-        AlignmentRefernces alignment_references
+        AlignmentReferences alignment_references
         References references
         File input_bam
     }
