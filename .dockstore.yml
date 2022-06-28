@@ -91,6 +91,6 @@ workflows:
     subclass: WDL
     primaryDescriptorPath: /pipelines/broad/internal/dna_seq/germline/single_sample/UltimaGenomics/BroadInternalUltimaGenomics.wdl
 
-  -name: testBWA
+  - name: testBWA
     subclass: WDL
     primaryDescriptorPath: /tasks/broad/testBWA.wdl
