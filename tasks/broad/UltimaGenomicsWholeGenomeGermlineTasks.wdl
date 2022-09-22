@@ -599,7 +599,7 @@ task ConvertGVCFtoVCF {
     -V ~{input_gvcf} \
     -O ~{output_vcf_name} \
     -A  StrandBiasBySample \
-    -stand-call-conf 0 
+    -stand-call-conf 30 
   }
 
   runtime {
